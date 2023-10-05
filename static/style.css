@@ -1,0 +1,306 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;500;600;700;800;900;1000&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    /* max-width: 1430px; */
+
+}
+body
+{
+    background-color: #f3f7ff;
+    /* margin: 0 auto; */
+}
+.material-symbols-outlined {
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 24
+}
+
+header
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 50px;
+}
+
+header .logo
+{
+    height: 35px;
+}
+
+header .buttons
+{
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+    align-items: center;
+}
+
+header .buttons button
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #659cde;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 30px;
+    margin-right: 5px;
+    transition: ease-in-out 300ms;
+}
+
+header .buttons button:hover
+{
+    background-color: #308dff;
+    cursor: pointer;
+}
+
+.search
+{
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    width: 40vw;
+    border-radius: 15px;
+    padding: 3px 10px;
+    filter: drop-shadow(5px 5px 4px #0808081e);
+
+}
+.search input
+{
+    width: 90%;
+    margin-left: auto;
+    padding: 10px 5px;
+    border: none;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+
+}
+.search input:focus
+{
+    outline: none;
+
+}
+
+.water-highlights
+{
+    background-color: #fff;
+    width: 70vw;
+    border-radius: 35px;
+    margin: 0 auto;
+    padding: 30px;
+    filter: drop-shadow(5px 5px 4px #0808081e);
+    display: flex;
+    flex-wrap: wrap;
+    align-items: start;
+}
+
+.card
+{
+    background-color: #fafafa;
+    padding: 30px;
+    filter: drop-shadow(5px 5px 4px #0808081e);
+    width: 40%;
+    margin-right: 20px;
+    border-radius: 15px;
+}
+.water-highlights .card .head
+{
+    display: flex;
+    justify-content: space-between;
+}
+.water-highlights .card .head .quality
+{
+    background-color: #e4db8a;
+    font-weight: 400;
+    padding: 5px;
+    font-size: 12px;
+    border-radius: 5px;
+}
+
+.water-highlights .card .g 
+{
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.card .g p
+{
+    color: #7e7e7e;
+}
+.card .g h5
+{
+    font-size: 22px;
+}
+.card .head .header
+{
+    color: #7e7e7e;
+}
+.water-features
+{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 10px;
+}
+
+.water-feature
+{
+    margin-right: 20px;
+}
+
+.g span
+{
+    font-size: 42px;
+}
+
+.water-feature
+{
+    display: flex;
+
+}
+
+.water-feature span
+{
+    font-size: 42px;
+    margin-right: 5px;
+}
+
+.analytics-cards
+{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px 0;
+}
+
+.analytics-card
+{
+    margin-right: 15px;
+    margin-top: 15px;
+    border-radius: 20px;
+    width: 200px;
+    background-color: #fafafa;
+    padding: 15px;
+    filter: drop-shadow(5px 5px 4px #0808081e);
+
+}
+.analy
+{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 30px;
+    font-size: 22px;
+}
+
+.analy span
+{
+    font-size: 28px;
+}
+
+.sea-creatures
+{
+    background-color: #fff;
+    width: 70vw;
+    border-radius: 35px;
+    margin: 25px auto;
+    padding: 30px;
+    filter: drop-shadow(5px 5px 4px #0808081e);
+    display: flex;
+    flex-wrap: wrap;
+    align-items: start;
+
+}
+
+
+
+.fish-card .Know-More
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #659cde;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 30px;
+    margin-right: 5px;
+    transition: ease-in-out 300ms;
+    width: 130px;
+}
+
+.fish-card .Know-More:hover
+{
+    background-color: #308dff;
+    cursor: pointer;
+}
+
+.sea-creatures
+{
+    display: flex;
+    flex-direction: column;
+
+}
+.fish-card
+{
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fafafa;
+    filter: drop-shadow(5px 5px 4px #0808081e);
+    padding: 30px;
+    border-radius: 15px;
+}
+
+.fish-card img
+{
+    width: 300px;
+}
+
+.fish-cards
+{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+main
+{
+    display: flex;
+    margin: 0 auto;
+    width: 90vw;
+}
+
+.lake-info
+{
+    padding: 30px;
+    background-color: #fff;
+    filter: drop-shadow(5px 5px 4px #0808081e);
+    margin: 10px;
+    border-radius: 35px;
+
+}
+
+.lake-info h2
+{
+    border-bottom: 2px solid #000;
+    display: inline;
+    margin-bottom: 10px;
+
+}
+
+.lake-info .date
+{
+    display: flex;
+}
